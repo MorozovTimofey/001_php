@@ -1,3 +1,7 @@
+<?php 
+        $name = 'Tima';
+        $count = 1;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,10 +11,9 @@
     <title><?= 'Hello world!'?></title>
 </head>
 <body>
-    <?php 
-        $a = 'gh()';
-        $a = 123;
-        $a = '123';
+    <?php
+        $h2 = "<h1 style=\"color:red\">{$count}й</h1>";
+        echo $h2;
     ?>
     <script>
         let a = '<?= 'Hello world!'?>';
